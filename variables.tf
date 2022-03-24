@@ -68,7 +68,7 @@ variable "azure_tenant_id" {
 }
 
 variable "azure_spoke_instance_size" {
-  default = "Standard_DS2_v2"
+  default = "Standard_D2as_v4"
 }
 
 variable "azure_spoke2_region" {

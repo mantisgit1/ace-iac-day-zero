@@ -68,7 +68,7 @@ variable "azure_tenant_id" {
 }
 
 variable "azure_spoke_instance_size" {
-  default = "Standard_B1ms"
+  default = "Standard_B2s"
 }
 
 variable "azure_spoke2_region" {

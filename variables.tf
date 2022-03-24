@@ -68,11 +68,11 @@ variable "azure_tenant_id" {
 }
 
 variable "azure_spoke_instance_size" {
-  default = "Standard_D2as_v4"
+  default = "Standard_B1ms"
 }
 
 variable "azure_spoke2_region" {
-  default = "UK South"
+  default = "West Europe"
 }
 
 variable "azure_spoke2_name" {

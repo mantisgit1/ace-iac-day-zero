@@ -84,7 +84,7 @@ variable "azure_spoke2_cidr" {
 }
 
 variable "azure_test_instance_size" {
-  default = "Standard_B1ms"
+  default = "Standard_B2s"
 }
 
 variable "ace_ec2_key_name" {
